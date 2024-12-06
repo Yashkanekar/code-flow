@@ -1,4 +1,5 @@
 import "./index.scss";
+import { RightComponent } from "./RightContainer";
 
 const HomeScreen = () => {
   return (
@@ -13,9 +14,7 @@ const HomeScreen = () => {
           </button>
         </div>
       </div>
-      <div className="right-container">
-        <h1>Right container</h1>
-      </div>
+      <RightComponent />
     </div>
   );
 };

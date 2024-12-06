@@ -1,0 +1,44 @@
+.right-container {
+  padding: 20px;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 30px;
+    span {
+      font-weight: 400;
+    }
+  }
+  .add-folder-button {
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      height: 35px;
+      width: 120px;
+      border-radius: 25px;
+      border: none;
+      transition-duration: 0.5s;
+      font-size: 15px;
+    }
+    button:hover {
+      box-shadow: 2px 2px 6px gray;
+    }
+  }
+  .folder-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    .folder-header-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
