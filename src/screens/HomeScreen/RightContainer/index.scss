@@ -35,10 +35,36 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    border-bottom: 1px solid black;
     .folder-header-item {
       display: flex;
       align-items: center;
       gap: 10px;
+    }
+    button {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      border: none;
+    }
+  }
+  .card {
+    cursor: pointer;
+    display: flex;
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    margin-top: 20px;
+    .title-container {
+      display: flex;
+      flex-direction: column;
+    }
+    img {
+      width: 45px;
     }
   }
 }

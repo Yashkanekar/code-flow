@@ -31,7 +31,19 @@ export const RightComponent = () => {
             </button>
           </div>
         </div>
-        <div className="cards-container"></div>
+        <div className="cards-container">
+          <div className="card">
+            <img src="../../../../assets/terminal.png" />
+            <div className="title-container">
+              <span>{"My project name"}</span>
+              <span>Language {"Java"}</span>
+            </div>
+            <div style={{ display: "flex", gap: "10px" }}>
+              <span className="material-icons">delete</span>
+              <span className="material-icons">edit</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
